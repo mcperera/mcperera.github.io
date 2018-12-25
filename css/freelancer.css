@@ -173,7 +173,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  /* padding-top: calc(6rem + 72px); */
+  padding-top: calc(1rem + 50px);
   padding-bottom: 6rem;
 }
 
@@ -189,12 +190,12 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(106px); /*Edited*/
+    padding-bottom: 13rem; /*Edited*/
   }
   header.masthead h1 {
     font-size: 4.75em;
-    line-height: 4rem;
+    line-height: 13rem;
   }
   header.masthead h2 {
     font-size: 1.75em;
